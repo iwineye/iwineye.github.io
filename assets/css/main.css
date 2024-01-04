@@ -101,7 +101,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #000000dd;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -1997,8 +1997,8 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #463d3d96;
-			color: #fff
+			background-color: #debd166d;
+			color: #091e33
 			
 		}
 
@@ -2016,7 +2016,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #303030;
-			color: #04e717d5;
+			color: #eef1eed5;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
