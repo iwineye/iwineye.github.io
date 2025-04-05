@@ -1687,7 +1687,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43b3e0c7;
+		background-color: #8025f6 ;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1997,7 +1997,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #debd166d;
+			background-color: #e0efff;
 			color: #091e33
 			
 		}
@@ -2449,3 +2449,27 @@ input, select, textarea {
 					}
 
 	}
+
+
+
+/* Style for the section heading */
+.section-heading {
+    font-size: 2.5rem;         /* Increase font size for prominence */
+    font-weight: bold;         /* Make the text bold */
+    text-align: center;        /* Center-align the heading */
+    margin-top: 50px;          /* Add extra space above the heading */
+    margin-bottom: 50px;       /* Add extra space below the heading */
+    color: #fff;               /* Make the text white for contrast */
+    background-color: #333;    /* Dark background for the heading */
+    text-transform: uppercase; /* Uppercase letters for emphasis */
+    letter-spacing: 2px;       /* Add spacing between letters */
+    padding: 20px 0;           /* Add padding inside the heading */
+    border-radius: 5px;        /* Round corners of the background box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow to create depth */
+    border: 2px solid #666;    /* Subtle border around the heading */
+}
+
+.section-heading:hover {
+    background-color: #444;    /* Slightly change background color on hover */
+    cursor: pointer;           /* Change cursor to indicate interactivity */
+}
